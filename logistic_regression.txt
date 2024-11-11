@@ -1,0 +1,18 @@
+# Logistic Regression
+* Linear regression is for linear model
+* Others models:
+	1. Quadratic
+	2. Exponential
+	3. Logistic (Predict [target, outcome] categorical data (Y or N) (will buy or will not buy))
+
+* formal defination: The logistic regression predicts the probability of an event occuring
+* Why logistic as name? Because of logistic function
+* Useful for binary prediction
+* p(x) = e^(b0 + b1x1 + ... + bkxk)/1(+e^(b0 + b1x1 + ... + bkxk))
+* p(x)/(1-p(x)) = e^(b0 + b1x1 + ... + bkxk) = probability of occuring/ probability of not occuring
+* log(p(x)/(1-p(x))) = log(e^(b0 + b1x1 + ... + bkxk)) = b0 + b1x1 + ... + bkxk = log(odds) --- Logit model
+
+# Odds of getting ...
+* Rolling a dice:
+	- getting a six = 1/6
+	- odds of getting a six = p(getting a six)/p(not getting a six) = (1/6)/(5/6) = 1/5

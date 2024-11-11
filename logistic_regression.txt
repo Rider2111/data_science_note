@@ -16,3 +16,13 @@
 * Rolling a dice:
 	- getting a six = 1/6
 	- odds of getting a six = p(getting a six)/p(not getting a six) = (1/6)/(5/6) = 1/5
+
+# MLE (Maximum Likelihook Estimation)
+Likelihood function: a function which estimates how likely it is that the model at hand describers the real underlying relationship of the variables. 
+The bigger the likelihood function, the higher the probability that our model is correct
+
+MLE tries to maximize the likelihood function. The computer is going through different vaules, unit it finds a model, for which teh likelihood is the highest. When it can no longer improve it, it iwll just stop the optimization
+
+* Log likelihood is always negative - the bigger the better
+* LL-Null: the log-likelihood of a model which has no independent variables (basically c equivalent in y=mx+c)
+* LLR p-value: the smaller the better
